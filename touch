@@ -1,0 +1,22 @@
+# Residual Risks
+
+## Webhook SSRF
+
+Risk:
+Notification service may call untrusted URLs.
+
+Reason Not Fixed:
+Requires architecture change.
+
+Compensating Control:
+Outbound firewall rules.
+
+---
+
+## Missing Audit Logs
+
+Risk:
+Limited investigation capability.
+
+Compensating Control:
+Central logging recommended.
